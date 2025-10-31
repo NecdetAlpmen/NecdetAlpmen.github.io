@@ -17,7 +17,7 @@ export interface Book {
   coverUrl?: string
   rating?: number
   review?: string
-  dateRead: string
+  dateRead?: string
   tags: string[]
   favorite?: boolean
   summary?: string
@@ -39,7 +39,7 @@ export interface Beer {
   name: string
   brewery: string
   imageUrl?: string
-  untappdScore?: number
+  beerAdvocateScore?: number
   myScore?: number
   notes?: string
   style?: string

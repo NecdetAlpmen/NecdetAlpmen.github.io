@@ -26,12 +26,12 @@ export default function Hero() {
           >
             View Work
           </a>
-          <a
+          {/* <a
             href="#blog"
             className="px-6 py-2 border-2 border-gray-300 text-gray-700 rounded-lg hover:border-primary-600 hover:text-primary-600 transition-colors font-medium text-sm"
           >
             Read Blog
-          </a>
+          </a> */}
         </div>
 
         {/* About Section */}

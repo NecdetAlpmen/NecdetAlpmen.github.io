@@ -1,12 +1,21 @@
 import { books } from '@/data/books'
 
-export default function BooksSection() {
+export default function BooksPage() {
   const favoriteBooks = books.filter(book => book.favorite)
   const currentlyReading = books.filter(book => book.currentlyReading)
 
   return (
-    <section id="books" className="container mx-auto px-4 py-12 bg-gray-50">
+    <div className="container mx-auto px-4 py-12">
       <div className="max-w-3xl mx-auto">
+        <div className="mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+            Books
+          </h1>
+          <p className="text-gray-600 text-lg">
+            Books that inspire my work and ongoing learning
+          </p>
+        </div>
+
         {currentlyReading.length > 0 && (
           <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
@@ -47,7 +56,8 @@ export default function BooksSection() {
           </ul>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
+
 

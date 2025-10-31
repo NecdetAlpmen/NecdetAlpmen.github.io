@@ -2,7 +2,7 @@ import { beers } from '@/data/beers'
 
 export default function BeersSection() {
   return (
-    <section id="beers" className="container mx-auto px-4 py-12">
+    <section id="beers" className="container mx-auto px-4 py-12 bg-gray-50">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
@@ -16,7 +16,7 @@ export default function BeersSection() {
 
         <ol className="space-y-4">
           {beers.map((beer, index) => (
-            <li key={beer.id} className="flex gap-4">
+            <li key={beer.id} className="flex items-center gap-4">
               <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-primary-600 text-white rounded-full font-bold text-sm">
                 {index + 1}
               </div>
@@ -32,23 +32,11 @@ export default function BeersSection() {
                     </div>
                   )}
                   <div className="flex-grow">
-                    <div className="flex items-start justify-between mb-1">
+                    <div className="mb-1">
                       <div>
                         <span className="font-semibold text-gray-900">{beer.name}</span>
                         {' '}by {beer.brewery}
                         {beer.style && <span className="text-gray-500"> • {beer.style}</span>}
-                      </div>
-                      <div className="flex items-center gap-3 ml-4 flex-shrink-0">
-                        {beer.untappdScore && (
-                          <span className="text-xs text-gray-500">
-                            Untappd: <span className="font-medium text-gray-700">{beer.untappdScore.toFixed(1)}</span>
-                          </span>
-                        )}
-                        {beer.myScore && (
-                          <span className="text-xs text-gray-500">
-                            My Score: <span className="font-medium text-primary-600">{beer.myScore.toFixed(1)}</span>
-                          </span>
-                        )}
                       </div>
                     </div>
                     {beer.notes && (

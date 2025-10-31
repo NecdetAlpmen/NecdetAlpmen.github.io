@@ -9,9 +9,9 @@ export default function Header() {
   const navItems = [
     { href: '#work', label: 'Work' },
     { href: '#patents', label: 'Patents' },
-    { href: '#books', label: 'Books' },
+    { href: '/books', label: 'Books' },
     { href: '#beers', label: 'Beers' },
-    { href: '/blog', label: 'Blog' },
+    // { href: '/blog', label: 'Blog' },
   ]
 
   return (
