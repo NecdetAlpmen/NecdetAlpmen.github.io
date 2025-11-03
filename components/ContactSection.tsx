@@ -6,7 +6,7 @@ export default function ContactSection() {
           Contact
         </h2>
         <p className="text-gray-600 text-lg mb-12">
-          Let's connect! Feel free to reach out for collaborations, questions, or just to say hello.
+          Let&apos;s connect! Feel free to reach out for collaborations, questions, or just to say hello.
         </p>
 
         <div className="bg-white border border-gray-200 rounded-lg p-8 shadow-md">

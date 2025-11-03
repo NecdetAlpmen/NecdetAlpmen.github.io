@@ -26,6 +26,7 @@ export default function WorkSection() {
               <div className="bg-white border border-gray-200 rounded-lg overflow-hidden h-full card-hover shadow-md">
                 {item.thumbnailUrl ? (
                   <div className="overflow-hidden bg-gray-100 flex items-center justify-center h-48">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={item.thumbnailUrl}
                       alt={item.title}
@@ -83,6 +84,7 @@ export default function WorkSection() {
               </div>
             ) : selectedItem.type === 'image' && selectedItem.thumbnailUrl ? (
               <div className="mb-6 rounded-lg overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={selectedItem.thumbnailUrl}
                   alt={selectedItem.title}

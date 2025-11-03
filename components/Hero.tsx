@@ -4,6 +4,7 @@ export default function Hero() {
       <div className="max-w-3xl mx-auto text-center">
         {/* Avatar */}
         <div className="mb-6">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://avatars.githubusercontent.com/u/13866751?s=400&u=68a2b890ab823867d49bdaed332c6bc332cad385&v=4"
             alt="Necdet Alpmen"

@@ -23,6 +23,7 @@ export default function BeersSection() {
                 <div className="flex items-center gap-3">
                   {beer.imageUrl && (
                     <div className="w-16 h-16 flex-shrink-0 rounded overflow-hidden">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={beer.imageUrl}
                         alt={`${beer.name} by ${beer.brewery}`}
