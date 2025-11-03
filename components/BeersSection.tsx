@@ -9,8 +9,7 @@ export default function BeersSection() {
             Top 10 Beers
           </h2>
           <p className="text-gray-700 max-w-2xl mx-auto leading-relaxed">
-            Add a sentence or two here about why you like beer. This could be about the craft, the variety, 
-            the community, or simply the enjoyment of trying new flavors and styles.
+            Here is a list of my favorite beers. I enjoy trying new beers and styles (except for sours), but these are the ones I always come back to.
           </p>
         </div>
 
@@ -21,7 +20,7 @@ export default function BeersSection() {
                 {index + 1}
               </div>
               <div className="flex-grow">
-                <div className="flex items-start gap-3">
+                <div className="flex items-center gap-3">
                   {beer.imageUrl && (
                     <div className="w-16 h-16 flex-shrink-0 rounded overflow-hidden">
                       <img

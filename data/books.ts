@@ -8,7 +8,7 @@ export const books: Book[] = [
     rating: 5,
     tags: ['Management', 'Leadership', 'Business'],
     favorite: true,
-    summary: 'Best management book I have read so far. Read this twice.',
+    summary: 'Best management book I have read so far. Read this multiple times.',
   },
   {
     id: '8',
@@ -35,7 +35,7 @@ export const books: Book[] = [
     rating: 4,
     tags: ['Management', 'OKRs', 'Business'],
     favorite: true,
-    summary: 'Interesting read. Well structured but leaves unknowns in performance management perspective.',
+    summary: 'Interesting read. Well structured but leaves some questions marks about performance management.',
   },
   {
     id: '11',

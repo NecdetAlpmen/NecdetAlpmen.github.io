@@ -4,15 +4,15 @@ export const workItems: WorkItem[] = [
   {
     id: '1',
     title: 'Stealth',
-    description: 'Working on integrating AI agents into business flows humanely. An innovative project focused on seamlessly embedding AI agents into business workflows and processes, ensuring ethical and human-centered integration that enhances productivity.',
+    description: 'Working on an innovative project focused on seamlessly embedding AI mates into existing business workflows and processes to enhance team productivity and collaboration.',
     type: 'project',
-    tags: ['AI', 'Business Automation', 'Workflow', 'Ethics'],
-    date: '2024-06-01',
+    tags: ['AI', 'Business Automation'],
+    date: '2025-07-01',
   },
   {
     id: '2',
     title: 'Pubinno Smart Taps',
-    description: 'Led engineering efforts on hardware and embedded software development for innovative smart tap technology. This is the first mass-produced product I have completed, reaching over 2,000 bars globally across Portugal, USA, UK, Turkey, and Japan. The system integrates IoT sensors, real-time data analytics, and precision flow control for optimal beverage dispensing.',
+    description: 'Led engineering efforts on hardware and software development for innovative Smart Tap technology. This is the first mass-produced product I have completed, reaching thousands of bars globally. The system integrates edge AI, IoT, sensor fusion, and precision flow control for optimal beverage dispensing. Won 2023 Best Product Innovation award at Braubeviale, Germany.',
     type: 'video',
     mediaUrl: 'https://www.youtube.com/embed/M-S-wcdmnys',
     thumbnailUrl: 'https://img.youtube.com/vi/M-S-wcdmnys/maxresdefault.jpg',
@@ -22,7 +22,7 @@ export const workItems: WorkItem[] = [
   {
     id: '3',
     title: 'Smart Clean',
-    description: 'Advanced automated cleaning system with IoT connectivity and smart monitoring capabilities. Developed comprehensive embedded firmware with real-time sensor data processing, remote control interface, and predictive maintenance algorithms. The system features multi-sensor integration, automated cleaning cycles, and cloud-based analytics for optimal operation and efficiency tracking.',
+    description: 'Advanced automated draft beverage line cleaning system with IoT connectivity and remote monitoring capabilities. Led the engineering efforts on hardware and software development for the system with real-time sensor data processing, remote control, device management, and maintenance algorithms. The system features multi-sensor integration, automated cleaning cycles, and cloud-based analytics for optimal operation and efficiency tracking.',
     type: 'video',
     mediaUrl: 'https://www.youtube.com/embed/bzsFzMiLFKs',
     thumbnailUrl: 'https://img.youtube.com/vi/bzsFzMiLFKs/maxresdefault.jpg',
@@ -32,7 +32,7 @@ export const workItems: WorkItem[] = [
   {
     id: '4',
     title: 'Smart Hub',
-    description: 'IoT backbone platform serving as the central nervous system for connected devices. Built comprehensive cloud infrastructure featuring device management, ETL pipelines for data processing, remote configuration management, and advanced reporting and analytical dashboards. The platform enables real-time device monitoring, firmware over-the-air updates, data aggregation and transformation, customizable reporting, and predictive analytics for enterprise-scale IoT deployments.',
+    description: 'IoT backbone platform serving as the central nervous system for Pubinno\'s connected devices. Built comprehensive cloud infrastructure featuring device management, ETL pipelines for data processing, remote configuration management, and advanced reporting and analytical dashboards. The platform enables real-time device monitoring, firmware over-the-air updates, data aggregation and transformation, customizable reporting, and predictive analytics for enterprise-scale IoT deployments.',
     type: 'video',
     mediaUrl: 'https://www.youtube.com/embed/B5mCC5IhiMw',
     thumbnailUrl: 'https://img.youtube.com/vi/B5mCC5IhiMw/maxresdefault.jpg',
@@ -42,7 +42,7 @@ export const workItems: WorkItem[] = [
   {
     id: '5',
     title: 'TapPay',
-    description: 'Self-service beer dispensing system add-on for existing smart tap infrastructure. Integrated with multiple payment providers across different regions worldwide, enabling seamless transactions in various markets. Features comprehensive ID and age verification systems to ensure compliance with local regulations. The solution provides a complete self-service experience with secure payment processing, real-time transaction management, and regulatory compliance capabilities.',
+    description: 'Self-service beer dispensing system add-on for existing Smart Tap infrastructure. Integrated with multiple payment providers across different regions worldwide, enabling seamless transactions in various markets. Features ID and age verification systems to ensure compliance with local regulations. The solution provides a complete self-service experience with secure payment processing, real-time transaction management, and regulatory compliance capabilities.',
     type: 'video',
     mediaUrl: 'https://www.youtube.com/embed/zoCE-N64TP4',
     thumbnailUrl: 'https://img.youtube.com/vi/zoCE-N64TP4/maxresdefault.jpg',
@@ -52,7 +52,7 @@ export const workItems: WorkItem[] = [
   {
     id: '6',
     title: 'RTLS & Sensor System',
-    description: 'Complete Real-Time Location System (RTLS) and sensor platform for RFID and RTLS applications. Led complete hardware and firmware engineering for the entire system enabling tracking and monitoring of assets, equipment, materials, personnel, and vehicles in indoor and outdoor environments. The system features multi-functional active RFID tags built with proprietary wireless protocol on UWB (Ultra-Wideband) technology for unique identifier transmission. Achieves nearly 100% accurate zone detection when integrated with RTLS software and zone beacons, eliminating RF signal-based location inconsistencies. Integrated accelerometer for motion detection, freefall detection, and theft prevention with shock logging. Temperature and humidity sensors enable environmental monitoring for sensitive assets. Software programmable buttons support configurable functions such as emergency triggers and maintenance requests. Tags powered by coin cell battery for extended field operation. The complete system includes readers, gateways, zone beacons, modular software applications, reporting, and alert mechanisms.',
+    description: 'Complete Real-Time Location System (RTLS) and sensor platform for RFID and RTLS applications. I designed the hardware and firmware for the entire system enabling tracking and monitoring of assets, equipment, materials, personnel, and vehicles in indoor and outdoor environments. The system features multi-functional active RFID tags built with proprietary wireless protocol on UWB (Ultra-Wideband) and IEEE802.15.4. Achieves 100% accurate zone detection when integrated with IR zone beacons, eliminating RF signal-based location inconsistencies. Integrated accelerometer for motion detection, position filtering and freefall detection. Optional temperature and humidity sensors enable environmental monitoring for sensitive assets. Software programmable buttons support configurable functions such as emergency triggers and maintenance requests. Ultra low power consumption tags powered by a single coin cell battery. The complete system includes readers, gateways, zone beacons, modular software applications, reporting, and alert mechanisms.',
     type: 'project',
     thumbnailUrl: '/images/asset-tag.png',
     tags: ['Hardware', 'Firmware', 'UWB', 'RFID', 'RTLS'],

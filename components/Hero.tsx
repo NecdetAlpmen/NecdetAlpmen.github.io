@@ -16,7 +16,7 @@ export default function Hero() {
         </h1>
         
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl mx-auto">
-          Building digital experiences and sharing ideas
+          Crafting innovative products for messy realities
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 mb-8">
@@ -37,9 +37,8 @@ export default function Hero() {
         {/* About Section */}
         <div className="max-w-2xl mx-auto mb-8">
           <p className="text-gray-700 leading-relaxed">
-            Add information about yourself here. This is where you can describe your background, interests, 
-            professional journey, or anything else you'd like visitors to know about you. You can edit this 
-            text in the Hero component to personalize it.
+          Led <a href="https://pubinno.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary-600">Pubinno</a> to category leadership with two award-winning products now used in thousands of bars worldwide, and hold multiple U.S. patents.
+          I build at the intersection of AI, IoT, and embedded systems, taking products from ideation to mass production. I love zero-to-one work: integrating devices, data, and AI agents, and leading teams that turn bold ideas into things people actually use. And yes, I love beer. 🍺
           </p>
         </div>
 

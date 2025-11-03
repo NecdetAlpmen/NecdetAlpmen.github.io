@@ -7,7 +7,7 @@ export const beers: Beer[] = [
     brewery: 'Russian River Brewing Company',
     imageUrl: 'https://www.russianriverbrewing.com/wp-content/uploads/2024/03/RRBC-PlinyTheElder-BottleMockup-510ml-731x1024.webp',
     style: 'Double IPA',
-    notes: 'Perfect balance of hops and malt. One of the best IPAs I\'ve ever had.',
+    notes: 'Perfectly balanced. Best beer  I\'ve ever had so far.',
   },
   {
     id: '2',
@@ -55,18 +55,11 @@ export const beers: Beer[] = [
     brewery: 'Guinness',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/92/Guinness.jpg',
     style: 'Irish Dry Stout',
-    notes: 'Best draft beer you can get in NYC by far.',
+    notes: 'Best beer on draft if you find fresh ones.',
   },
+  
   {
     id: '8',
-    name: 'Efes Pilsen',
-    brewery: 'Anadolu Efes',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Efes_Pilsen_logo.png',
-    style: 'Pilsner',
-    notes: 'The Turkish pilsner. Quite underrated. Not easy to find in USA.',
-  },
-  {
-    id: '9',
     name: 'Weihenstephaner Hefe',
     brewery: 'Weihenstephan',
     imageUrl: 'https://www.weihenstephaner.de/_next/image?url=https%3A%2F%2Fwww.weihenstephaner.de%2Fstrapi%2Fuploads%2FHWB_49be808fd1.png&w=3840&q=75',
@@ -74,11 +67,19 @@ export const beers: Beer[] = [
     notes: 'Classic German hefeweizen with banana and clove notes. Never disappointed with this one.',
   },
   {
-    id: '10',
+    id: '9',
     name: 'Vliet',
     brewery: 'Threes Brewing',
     imageUrl: 'https://threesbrewing.com/cdn/shop/files/Vliet_PrintedCan_ShopifyCutout_Bohn_1024x1024@2x.png?v=1706121357',
     style: 'Pilsner',
-    notes: 'Clean and crisp pilsner with subtle hop character. Found this by chance in Brooklyn. Well-crafted.',
+    notes: 'Clean and crisp German pilsner. Found this by chance in Brooklyn. Well-crafted.',
+  },
+  {
+    id: '10',
+    name: 'Efes Pilsen',
+    brewery: 'Anadolu Efes',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Efes_Pilsen_logo.png',
+    style: 'Pilsner',
+    notes: 'The Turkish pilsner. Quite underrated.',
   },
 ]
