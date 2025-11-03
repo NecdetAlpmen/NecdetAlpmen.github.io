@@ -24,16 +24,6 @@ export interface Book {
   currentlyReading?: boolean
 }
 
-export interface BlogPost {
-  id: string
-  title: string
-  excerpt: string
-  content: string
-  date: string
-  tags: string[]
-  readTime: number
-}
-
 export interface Beer {
   id: string
   name: string
