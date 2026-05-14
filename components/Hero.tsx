@@ -22,7 +22,7 @@ export default function Hero() {
 
         <div className="flex flex-wrap justify-center gap-3 mb-8">
           <a
-            href="#work"
+            href="/#work"
             className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium text-sm shadow-md"
           >
             View Work

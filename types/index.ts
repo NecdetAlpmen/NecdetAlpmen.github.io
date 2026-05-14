@@ -46,3 +46,10 @@ export interface Patent {
   status?: string
 }
 
+export interface BlogPostMeta {
+  slug: string
+  title: string
+  date: string
+  description: string
+}
+
